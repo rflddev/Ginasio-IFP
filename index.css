@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&display=swap');
+
+*{
+ box-sizing:border-box ;
+ margin: 0;
+}
+
+body{
+    background-color: rgb(37, 35, 35);
+    font-family: "Outfit", serif;
+    font-style: unset;
+    color: white;
+}
+
+.containerbx{
+    background-color: #cd3232;
+    width: 1535px;
+    height: 200px; 
+}
+
+.containertext{
+    padding-left: 15px;
+}
+
+#perfilimg{
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 50px;
+    margin: 10px;
+}
+#perfilimg:hover{
+    transform:scale(1.25,1.25);
+}
+
+#perfilimg:hover::after{
+    opacity: 1;
+}
+
+section img{
+    width: 400px;
+    padding-left: 80px;
+}
+
+button{
+    background-color: rgb(37, 35, 35);
+    border-style: none;
+    border-color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover{
+    background-color: #ff0000;
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(0.95);
+    background-color: #ff0000;
+}
+
+.butom{
+    padding-left: 600px;
+    padding-top: 100px;
+}
+
